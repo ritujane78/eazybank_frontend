@@ -1,9 +1,11 @@
-# BankAppUi
+# EazyBank Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
+This project is generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
 
 # Backend
 The backend code in Spring Boot (https://github.com/ritujane78/eazybank_backend) runs at `http:localhost:8080`.
+
+# Branch Overview 
 
 This repository is intentionally structured with **a branch** to demonstrate **prgressive security implementations**with keycloak.
 
