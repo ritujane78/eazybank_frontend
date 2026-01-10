@@ -7,7 +7,8 @@ The backend code in Spring Boot (https://github.com/ritujane78/eazybank_backend)
 
 # Authorization Server
 Keycloak authorization server runs on docker with command
-  
+```bash
+
   docker run -p 127.0.0.1:8081:8080 -d \
   -e KC_BOOTSTRAP_ADMIN_USERNAME=admin \
   -e KC_BOOTSTRAP_ADMIN_PASSWORD=admin \
