@@ -14,6 +14,8 @@ Keycloak authorization server runs on docker with command
   -e KC_BOOTSTRAP_ADMIN_PASSWORD=admin \
   quay.io/keycloak/keycloak:26.5.0 start-dev
 
+  ```
+
 
   Keycloak will be available at:
     
