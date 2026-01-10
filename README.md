@@ -5,33 +5,21 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 # Backend
 The backend code in Spring Boot (https://github.com/ritujane78/eazybank_backend) runs at `http:localhost:8080`.
 
-# Authorization Server
-Keycloak authorization server runs on docker with command
-```bash
+This repository is intentionally structured with **a branch** to demonstrate **prgressive security implementations**with keycloak.
 
-  docker run -p 127.0.0.1:8081:8080 -d \
-  -e KC_BOOTSTRAP_ADMIN_USERNAME=admin \
-  -e KC_BOOTSTRAP_ADMIN_PASSWORD=admin \
-  quay.io/keycloak/keycloak:26.5.0 start-dev
+### `main` branch
 
-  ```
+### `oauth2-keycloak` branch
 
 
-  Keycloak will be available at:
-    
-    http://127.0.0.1:8081
+Focuses on:
+- OAuth2 implementation using **Keycloak Authorization Server**
+- Externalized authentication and identity management
+- OAuth2 Authorization Code flow
 
-  ## Keycloak Configuration Steps
+This branch demonstrates **enterprise-grade authentication** using an industry-standard IAM solution.
 
-        Create a new Realm
-
-        Create Clients
-
-        Create Users
-
-        Create and assign Roles (USER / ADMIN)
-
-        Configure and enable the required Grant Types for each client
+---
   
 ## Development server
 
