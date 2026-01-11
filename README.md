@@ -10,6 +10,17 @@ This repository is intentionally structured with **a branch** to demonstrate **p
 
 ### `main` branch
 
+
+Focuses on:
+- Basic authentication with JWT
+- Username/password login flow
+- JWT generation and validation
+- Securing REST APIs using Spring Security
+
+Stateless authentication using access tokens
+
+This branch demonstrates a foundational JWT-based security setup, suitable for understanding core authentication concepts before moving to an external identity provider.
+
 ### `oauth2-keycloak` branch
 
 
